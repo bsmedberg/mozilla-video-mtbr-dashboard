@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <title>MSE Video Mean Time Between Rebuffering (MTBR)</title>
+  <style type="text/css">
+    body {
+      font-family: sans-serif;
+    }
+  </style>
+
+<body>
+  <h1>MSE Video Mean Time Between Rebuffering (MTBR)</h1>
+
+  <select id="versions">
+  </select><input type="button" id="loadButton" value="Go" disabled onclick="loadVersion()">
+
+  <p>
+    <table id="days">
+      <thead>
+        <tr><td>Date<td>MTBR (seconds)
+      <tbody>
+    </table>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="telemetry.js"></script>
+<!--<script src="http://telemetry.mozilla.org/v1/telemetry.js"></script>-->
+<script src="dashboard.js"></script>
